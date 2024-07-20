@@ -1,0 +1,6 @@
+2024-07-19 18:53:51,589 - BasePage.py:[76] - [INFO] - Clicking on an element: entersomevalueBtn_ID
+2024-07-19 18:53:52,244 - BasePage.py:[31] - [INFO] - Clicking on an element: entersomevalueBtn_ID
+2024-07-19 18:53:54,628 - BasePage.py:[87] - [INFO] - Getting text from an element entertitle_XPATH
+2024-07-19 18:54:04,751 - BasePage.py:[76] - [INFO] - Clicking on an element: entersomevalueBtn_ID
+2024-07-19 18:54:06,464 - BasePage.py:[31] - [INFO] - Clicking on an element: entersomevalueBtn_ID
+2024-07-19 18:54:07,129 - BasePage.py:[87] - [INFO] - Getting text from an element entertitle_XPATH

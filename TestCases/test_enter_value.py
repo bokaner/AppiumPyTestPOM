@@ -8,10 +8,7 @@ from Utilities import dataProvider
 
 
 class Test_Entervalue(BaseTest):
-    #@pytest.fixture(autouse=True)
-    #def classObjects(self,driver):
-    #   self.ap = AppiumDemo(driver)
-    @pytest.mark.skip
+
     @pytest.mark.parametrize("items", dataProvider.get_data("appdataTest"))
     def test_validate_Text(self, items):
         self.ap = AppiumDemo(self.driver)

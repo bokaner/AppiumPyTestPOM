@@ -5,6 +5,7 @@ import pytest
 from Pages.AppiumDemo import AppiumDemo
 from TestCases.BaseTest import BaseTest
 from Utilities import dataProvider
+import allure
 
 
 class Test_Entervalue(BaseTest):
@@ -21,7 +22,7 @@ class Test_Entervalue(BaseTest):
     #    appiumdemo.clickonEnterSomevalueButton()
     #      appiumdemo.entersomeValue(items)
 
-
+    @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.functional
     def test_validate_Text(self):
         self.ap = AppiumDemo(self.driver)

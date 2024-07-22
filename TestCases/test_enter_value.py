@@ -21,6 +21,8 @@ class Test_Entervalue(BaseTest):
     #    appiumdemo.clickonEnterSomevalueButton()
     #      appiumdemo.entersomeValue(items)
 
+
+    @pytest.mark.functional
     def test_validate_Text(self):
         self.ap = AppiumDemo(self.driver)
         displayed= self.ap.verify_entersome_button_isDisplayed()

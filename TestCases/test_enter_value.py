@@ -38,7 +38,7 @@ class Test_Entervalue(BaseTest):
         allureLogs("button clicked successfully")
 
         title = self.ap.verify_the_title()
-        assert title == "Enter some Values "
+        assert title == "Enter some Value"
         print(title)
         self.ap.entersomeValue("ujjwal")
 
